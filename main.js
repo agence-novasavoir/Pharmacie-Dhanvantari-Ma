@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Ne pas bloquer la page si le navigateur reste ouvert très longtemps.
     window.setTimeout(() => {
       intro.classList.add("intro-finished");
-    }, 3600);
+    }, 5000);
   }
 
   const home = document.body.classList.contains("home-page");
