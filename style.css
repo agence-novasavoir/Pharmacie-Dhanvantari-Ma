@@ -347,7 +347,7 @@ footer{background:#10261b;color:#d8e6de;padding-top:65px}
   background:
     radial-gradient(circle at 50% 45%,rgba(255,255,255,.98),rgba(236,248,241,.98) 58%,rgba(218,241,227,.99));
   overflow:hidden;
-  animation:introExit .9s cubic-bezier(.77,0,.18,1) 2.35s forwards;
+  animation:introExit 2s cubic-bezier(.77,0,.18,1) 5s forwards;
   pointer-events:none;
 }
 .home-intro::before{
